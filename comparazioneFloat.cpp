@@ -11,7 +11,7 @@ int main(){
         cout<<"Inserire quante ripetizioni (numero intero e positivo):\n",
         cin>>n;
     }
-    for(n=n; n>0; n--) {
+    for(;n>0;n--) {
         cout<<"Inserire un numero da comparare:\n";
         cin>>comparazione;
         if(comparazione>k){
