@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-float k, comparazione;
-int n, maggiore, minore, uguale;
+float k,comparazione;
+int n,maggiore,minore,uguale;
 
-int main() {
+int main(){
     cout<<"Inserire valore di comparazione:\n";
     cin>>k;
-    do {
-        cout << "Inserire quante ripetizioni (numero intero e positivo):\n",
-        cin >> n;
-    }while(n<=0);
+    while(n<=0){
+        cout<<"Inserire quante ripetizioni (numero intero e positivo):\n",
+        cin>>n;
+    }
     for(n=n; n>0; n--) {
         cout<<"Inserire un numero da comparare:\n";
         cin>>comparazione;
